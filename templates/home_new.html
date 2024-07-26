@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+    <body bgcolor = #1EEAEA>
+        <center>
+
+        <h1> Car Price Predictor </h1>
+        <h3>Please enter below detils</h3>
+        <form method='post' action = '/predict'>
+
+            <label for = 'model' > Car Model Name: </label><br>
+            <input type =  'text' name = 'model'   required = 'required' ><br><br>
+            <label for = 'company'>Company Name: </label><br>
+            <select name = 'company' required = 'required' >
+                <option value = 'Hyundai'>Hyundai</option>
+                <option value = 'Mahindra'>Mahindra</option>
+                <option value = 'Ford'>Ford</option>
+                <option value = 'Maruti'>Maruti</option>
+                <option value = 'Toyota'>Toyota</option>
+                <option value = 'Honda'>Honda</option>
+            </select><br><br>
+            <label for = 'year'>Model released year: </label><br>
+            <input type =  'number' name = 'year'   required = 'required' ><br><br>
+            <label for = 'kms'>Total kilometers used: </label><br>
+            <input type =  'number' name = 'kms'   required = 'required' ><br><br>
+            <label for = 'fuel'>Fuel type: </label><br>
+            <select name = 'fuel' required = 'required' >
+                <option value = 'Petrol'>Petrol</option>
+                <option value = 'Diesel'>Diesel</option>
+            </select><br><br>
+            <button>submit</button>
+
+        </form>
+        <br><br>
+        <img src = 'static\car.jpg'  width = '600' height='400' >
+    </center>
+    </body>
+
+
+</html>
