@@ -1,11 +1,4 @@
 absl-py==1.4.0
-aext-core==4.0.15
-aext-core-server==4.0.15
-aext-panels==4.0.15
-aext-panels-server==4.0.15
-aext-share-notebook==4.0.15
-aext-share-notebook-server==4.0.15
-aext-shared==4.0.15
 aiohttp==3.8.1
 aiosignal==1.2.0
 alabaster==0.7.12
